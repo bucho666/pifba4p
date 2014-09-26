@@ -65,6 +65,34 @@ enum {
 #define RPI_KEY_UP_2      999
 #define RPI_KEY_DOWN_2    999
 
+//player 3 keyboard defaults to disabled
+#define RPI_KEY_A_3       999
+#define RPI_KEY_B_3       999
+#define RPI_KEY_X_3       999
+#define RPI_KEY_Y_3       999
+#define RPI_KEY_L_3       999
+#define RPI_KEY_R_3       999
+#define RPI_KEY_START_3   999
+#define RPI_KEY_SELECT_3  999
+#define RPI_KEY_LEFT_3    999
+#define RPI_KEY_RIGHT_3   999
+#define RPI_KEY_UP_3      999
+#define RPI_KEY_DOWN_3    999
+
+//player 4 keyboard defaults to disabled
+#define RPI_KEY_A_4       999
+#define RPI_KEY_B_4       999
+#define RPI_KEY_X_4       999
+#define RPI_KEY_Y_4       999
+#define RPI_KEY_L_4       999
+#define RPI_KEY_R_4       999
+#define RPI_KEY_START_4   999
+#define RPI_KEY_SELECT_4  999
+#define RPI_KEY_LEFT_4    999
+#define RPI_KEY_RIGHT_4   999
+#define RPI_KEY_UP_4      999
+#define RPI_KEY_DOWN_4    999
+
 #define RPI_KEY_QUIT    SDLK_ESCAPE
 //#define RPI_KEY_ACCEL   SDLK_BACKSPACE
 #define RPI_KEY_QLOAD   SDLK_F1
@@ -109,13 +137,37 @@ enum {
 #define DOWN_2 29
 #define LEFT_2 30
 #define RIGHT_2 31
+#define A_3 40
+#define B_3 41
+#define X_3 42
+#define Y_3 43
+#define L_3 44
+#define R_3 45
+#define START_3 46
+#define SELECT_3 47
+#define UP_3 48
+#define DOWN_3 49
+#define LEFT_3 50
+#define RIGHT_3 51
+#define A_4 60
+#define B_4 61
+#define X_4 62
+#define Y_4 63
+#define L_4 64
+#define R_4 65
+#define START_4 66
+#define SELECT_4 67
+#define UP_4 68
+#define DOWN_4 69
+#define LEFT_4 70
+#define RIGHT_4 71
 
-#define ACCEL 50
-#define QUIT 51
-#define HELP 52
+#define ACCEL 90
+#define QUIT 91
+#define HELP 92
 
-#define QLOAD 55
-#define QSAVE 56
+#define QLOAD 95
+#define QSAVE 96
 
 // Axis positions
 #define CENTER  0
