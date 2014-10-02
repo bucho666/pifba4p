@@ -700,10 +700,10 @@ unsigned long pi_joystick_read(int which1)
 		if (joy_buttons[2][pi_joy[A_3]])		val |= GP2X_A;
 		if (joy_buttons[2][pi_joy[START_3]])	val |= GP2X_START;
 		if (joy_buttons[2][pi_joy[SELECT_3]]) 	val |= GP2X_SELECT;
-		if (joy_axes[2][joyaxis_UD] == UP)          val |= GP2X_UP;
-		if (joy_axes[2][joyaxis_UD] == DOWN)        val |= GP2X_DOWN;
-		if (joy_axes[2][joyaxis_LR] == LEFT)        val |= GP2X_LEFT;
-		if (joy_axes[2][joyaxis_LR] == RIGHT)       val |= GP2X_RIGHT;
+		if (joy_axes[2][joyaxis_UD_3] == UP)          val |= GP2X_UP;
+		if (joy_axes[2][joyaxis_UD_3] == DOWN)        val |= GP2X_DOWN;
+		if (joy_axes[2][joyaxis_LR_3] == LEFT)        val |= GP2X_LEFT;
+		if (joy_axes[2][joyaxis_LR_3] == RIGHT)       val |= GP2X_RIGHT;
         break;
     case 3:
 	    if (joy_buttons[3][pi_joy[L_4]])		val |= GP2X_L;
