@@ -26,6 +26,32 @@ LEFT_2=999
 RIGHT_2=999
 UP_2=999
 DOWN_2=999
+#player 3 keyboard controls, disabled by default
+A_3=999
+B_3=999
+X_3=999
+Y_3=999
+L_3=999
+R_3=999
+START_3=999
+SELECT_3=999
+LEFT_3=999
+RIGHT_3=999
+UP_3=999
+DOWN_3=999
+#player 4 keyboard controls, disabled by default
+A_4=999
+B_4=999
+X_4=999
+Y_4=999
+L_4=999
+R_4=999
+START_4=999
+SELECT_4=999
+LEFT_4=999
+RIGHT_4=999
+UP_4=999
+DOWN_4=999
 
 [Joystick]
 # Get codes from "jstest /dev/input/js0"
@@ -53,6 +79,30 @@ SELECT_2=8
 #Joystick axis
 JA_LR_2=0
 JA_UD_2=1
+#player 3 button configuration
+A_3=0
+B_3=1
+X_3=2
+Y_3=3
+L_3=4
+R_3=6
+START_3=9
+SELECT_3=8
+#Joystick axis
+JA_LR_3=0
+JA_UD_3=1
+#player 4 button configuration
+A_4=0
+B_4=1
+X_4=2
+Y_4=3
+L_4=4
+R_4=6
+START_4=9
+SELECT_4=8
+#Joystick axis
+JA_LR_4=0
+JA_UD_4=1
 
 [Graphics]
 DisplaySmoothStretch=1
